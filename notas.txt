@@ -17,3 +17,14 @@ git config --global user.email [email]
 git log
 
 git push origin [main/master]
+
+/*
+OPERACIONES CON RAMAS
+*/
+
+Checkout: Permite situarnos en un punto especifico del historial de commits o de un archivo; git checkout <archivo>
+
+Reset: nos regresa a la ultima fotografia completa tomada; git reset
+
+Visualizaciones: git log --graph, git log --pretty=oneline
+
